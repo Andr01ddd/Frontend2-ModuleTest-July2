@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: "Nunito",sans-serif;
+    background-color: #1C1B33;
+    color: #e7e7e7;
+}
+
+.heading {
+    font-family: "inter",sans-serif;
+    text-align: center;
+    padding: 30px 30px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.top-banner .container form{
+    text-align: center;
+    margin: 20px auto;
+}
+  
+.top-banner .container button[type="submit"]{
+    padding: 15px 30px;
+    background: #4A397F;
+    color: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.top-banner .container input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #2E335A;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.city-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #4A397F;
+    padding: 20px 10px;
+    border-radius: 25px;
+    align-items: center;
+    margin: 25px;
+}
+
+.city-temp {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    padding-right: 75px;
+}
+
+.city-temp-maxmin {
+    margin-top: 15px;
+    color: gray;
+}
+
+.city-name {
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 800px) {
+    .ajax-section .container {
+      flex-direction: column;
+    }
+  }
+
+.ajax-section .container .cities{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 150px;
+    
+    
+}
