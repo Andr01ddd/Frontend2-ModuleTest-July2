@@ -3,7 +3,7 @@ const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
 const apiKey = "243e0637b1711769996d3439fc0ef015";
-const addedCityNames = new Set(); // Set to track added city names
+const addedCityNames = new Set(); 
 
 function sortCitiesByTemperature() {
   const cityElements = Array.from(list.querySelectorAll(".city"));
